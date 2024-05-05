@@ -1,0 +1,42 @@
+.header {
+    height: 212px;
+    width: 100%;
+    background: #dedede;
+    display: flex;
+    justify-content: center;
+   
+}
+h2{
+    color: #676b68;
+    font-size: 30px;
+}
+.headerContent {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 100%;
+    max-width: 1120px;
+   
+}
+.containerAvatar span{
+    font-size: 14px;
+    font-weight: 400;
+}
+.container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 600px) {
+    .headerContent {
+        max-width: 100%;
+        flex-direction: column;
+        justify-content: inherit;
+        gap: 1rem; 
+    }
+
+    
+}

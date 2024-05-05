@@ -1,0 +1,29 @@
+.box {
+    height: 500px;
+    width: 1180px;
+    background: gray;
+}
+
+@media screen and (max-width: 1200px) {
+    .box {
+        background: red;
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 900px) {
+    .box {
+        background: green;
+        height: 250px;
+        width: 250px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+    .box {
+        background: violet;
+        height: 80px;
+        width: 80px;
+    }
+}
